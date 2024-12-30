@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'ubuntu', sans-serif;
+}
+body{
+    background-image: linear-gradient(to left,rgb(59, 6, 6),rgb(62, 62, 27));
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: none;       
+}
+.container{
+    background-image: 
+    linear-gradient(to right, rgb(59, 6, 6) 30%,#00000088),
+    url(assests/img_h_3.jpg)
+    ;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 640px;
+}
+.container:hover{
+    background-image: 
+    linear-gradient(to right, rgba(62, 62, 27) 30%,transparent),
+    url(assests/img_h_3.jpg)
+    ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+ .logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ ul a{
+    border-bottom: 2px solid transparent;
+}
+ ul a:hover{
+    border-bottom-color: #000;
+}
+.content{
+    width: 50%;
+    padding: 30px;
+    margin-top: 50px;
+    color: white;
+}
+.content h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 3px;
+    width: 350px;
+    padding:20px 0;
+}
+.content button{
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 6px 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: darkcyan;
+    color: red;
+    border-color: red;
+}
